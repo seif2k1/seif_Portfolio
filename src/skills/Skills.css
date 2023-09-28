@@ -1,0 +1,200 @@
+.group-logo {
+  background: url(../images/BACKGROUND.png) no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 320px;
+  width: 400px;
+  border-radius: 40px;
+}
+.group-logo img {
+  height: 200px;
+  width: 200px;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  gap: 20px;
+}
+.skills .skills-descreption h1 {
+  text-align: center;
+}
+.skills-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills-details h1 {
+  font-size: 16px;
+}
+.progress {
+  width: 80%;
+}
+.skills-framworks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.skills-framworks h1 {
+  font-size: 20px;
+}
+.skills-bonnus {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.skills-bonnus h1 {
+  font-size: 20px;
+}
+.Bonus,
+.Framworks,
+.My-Skills {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 12px 0;
+  padding-bottom: 12px;
+  color: #ff4c60;
+}
+.Bonus:hover div,
+.Framworks:hover div,
+.My-Skills:hover div {
+  position: absolute;
+  bottom: 0;
+  width: 200px;
+  height: 3px;
+  background: #ff4c60;
+  animation: seif1 1s;
+}
+@keyframes seif1 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 200px;
+  }
+}
+.skills .light-button button.bt {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.skills .light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  box-shadow: 2px 2px 2px rgba(88, 101, 242, 1);
+  outline-offset: 20;
+}
+.skills .light-button button.bt .button-holder svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.skills .light-button button.bt .light-holder {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills .light-button button.bt .light-holder .dot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.skills .light-button button.bt .light-holder .light {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.skills .light-button button.bt:hover .button-holder svg {
+  fill: rgba(88, 101, 242, 1);
+}
+
+.skills .light-button button.bt:hover .button-holder {
+  color: rgba(88, 101, 242, 1);
+  outline: rgba(88, 101, 242, 1) 2px solid;
+  box-shadow: 0 10px 10px rgba(88, 101, 242, 1);
+  outline-offset: 2px;
+}
+
+.skills .light-button button.bt:hover .light-holder .light {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(88, 101, 242, 1) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+@media screen and (0<=width<=768px) {
+  .skills .light-button button.bt .light-holder .light {
+    width: 140px;
+  }
+  .skills-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 20px;
+  }
+  .skills-descreption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px 0;
+    flex-wrap: nowrap;
+  }
+
+  .group-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+  }
+  .group-logo img {
+    height: 180px;
+    width: 180px;
+  }
+}
