@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seif_Portfolio/static/css/main.4d8b2d55.css",
-    "main.js": "/seif_Portfolio/static/js/main.22178872.js",
+    "main.css": "/seif_Portfolio/static/css/main.cdcd07fd.css",
+    "main.js": "/seif_Portfolio/static/js/main.17ce3baa.js",
     "static/js/872.490c7f53.chunk.js": "/seif_Portfolio/static/js/872.490c7f53.chunk.js",
     "static/js/227.e8a6ae04.chunk.js": "/seif_Portfolio/static/js/227.e8a6ae04.chunk.js",
     "static/js/526.ee5b9297.chunk.js": "/seif_Portfolio/static/js/526.ee5b9297.chunk.js",
@@ -15,6 +15,8 @@
     "static/media/dachbord.png": "/seif_Portfolio/static/media/dachbord.f52fedbb41f8e88a322f.png",
     "static/media/main_logo.png": "/seif_Portfolio/static/media/main_logo.0317f89025b7987b7385.png",
     "static/media/BACKGROUND.png": "/seif_Portfolio/static/media/BACKGROUND.451498af60f47d604cc8.png",
+    "static/media/weatherApi.png": "/seif_Portfolio/static/media/weatherApi.4a0776f9a80872ebfa72.png",
+    "static/media/todo.png": "/seif_Portfolio/static/media/todo.e6a2711811a782638c1b.png",
     "static/media/Group.png": "/seif_Portfolio/static/media/Group.fcabc8a4a7dbba0e5e61.png",
     "static/media/Cv.pdf": "/seif_Portfolio/static/media/Cv.ddd98687fb73e73c7f9b.pdf",
     "static/media/structure.png": "/seif_Portfolio/static/media/structure.4127b36258b5e9dc8f88.png",
@@ -28,8 +30,8 @@
     "static/media/github.svg": "/seif_Portfolio/static/media/github.1dbcf7b2491be69d987cad6ab8eacebc.svg",
     "static/media/linkedin.svg": "/seif_Portfolio/static/media/linkedin.fe8721c9a6b838941416b840c12455b6.svg",
     "static/media/nextjs (1).svg": "/seif_Portfolio/static/media/nextjs (1).badbbbf8aa9b84b1f447dd7fe5a7729d.svg",
-    "main.4d8b2d55.css.map": "/seif_Portfolio/static/css/main.4d8b2d55.css.map",
-    "main.22178872.js.map": "/seif_Portfolio/static/js/main.22178872.js.map",
+    "main.cdcd07fd.css.map": "/seif_Portfolio/static/css/main.cdcd07fd.css.map",
+    "main.17ce3baa.js.map": "/seif_Portfolio/static/js/main.17ce3baa.js.map",
     "872.490c7f53.chunk.js.map": "/seif_Portfolio/static/js/872.490c7f53.chunk.js.map",
     "227.e8a6ae04.chunk.js.map": "/seif_Portfolio/static/js/227.e8a6ae04.chunk.js.map",
     "526.ee5b9297.chunk.js.map": "/seif_Portfolio/static/js/526.ee5b9297.chunk.js.map",
@@ -37,7 +39,7 @@
     "237.19600c69.chunk.js.map": "/seif_Portfolio/static/js/237.19600c69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d8b2d55.css",
-    "static/js/main.22178872.js"
+    "static/css/main.cdcd07fd.css",
+    "static/js/main.17ce3baa.js"
   ]
 }
