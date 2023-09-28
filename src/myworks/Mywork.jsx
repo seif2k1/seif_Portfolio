@@ -3,6 +3,8 @@ import pic2 from "../images/Screenshot 2023-05-11 032916.png";
 import pic3 from "../images/dachbord.png";
 import pic4 from "../images/ecomerce.png";
 import pic5 from "../images/pizza-app.png";
+import pic6 from "../images/weatherApi.png";
+import pic7 from "../images/todo.png";
 import "swiper/css";
 import "./mywork.css";
 // Import Swiper React components
@@ -275,6 +277,102 @@ const Mywork = () => {
             <button>
               <a
                 href="https://pizza-app-delivery.vercel.app/"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Live Demo
+              </a>
+            </button>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: "-15px", scale: 0.5 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 3, type: "spring", stiffness: 400 }}
+          className="weather"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <div className="weather-image">
+            <img
+              src={pic6}
+              alt="seof"
+              style={{
+                borderRadius: "35px",
+              }}
+            />
+          </div>
+          <div
+            className="weather-des"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              padding: "0 15px",
+              flexDirection: "column",
+            }}
+          >
+            This is a website is about weather api it explain ther daily weather
+            and tempereture and more this all 24h , and details every each hour
+            <br />
+            And I i used in this project html and css and React.js and this
+            project is full responsive
+            <button>
+              <a
+                href="https://seif2k1.github.io/weather/"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Live Demo
+              </a>
+            </button>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: "-15px", scale: 0.5 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 3, type: "spring", stiffness: 400 }}
+          className="pizza"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <div className="pizza-image">
+            <img
+              src={pic7}
+              alt="seof"
+              style={{
+                borderRadius: "35px",
+              }}
+            />
+          </div>
+          <div
+            className="pizza-des"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              padding: "0 15px",
+              flexDirection: "column",
+            }}
+          >
+            This is a website is about a simple todolist but effective tool for
+            organizing and managing tasks or activities you need complete, you
+            can add a new tasks and after you added i you can change the task or
+            delete tasks or click on the text to finish the tasks.
+            <br />
+            And I i used in this project html and css and Reactjs "hooks" and
+            this is project is full responsive
+            <button>
+              <a
+                href="https://seif2k1.github.io/Todolist/"
                 style={{
                   textDecoration: "none",
                 }}

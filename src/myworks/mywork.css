@@ -47,6 +47,7 @@
   }
 }
 .barberShop .barber-image img,
+.weather .weather-image img,
 .hotel .hotel-image img,
 .dashboard .dashboard-image img,
 .shop .shop-image img,
@@ -55,6 +56,7 @@
   height: 350px;
 }
 .barberShop .barber-des,
+.weather .weather-des,
 .hotel .hotel-des,
 .dashboard .dashboard-des,
 .shop .shop-des,
@@ -63,12 +65,14 @@
 }
 .barberShop .barber-image img,
 .hotel .hotel-image img,
+.weather .weather-image img,
 .dashboard .dashboard-image img,
 .shop .shop-image img,
 .pizza .pizza-image img {
   width: 100%;
 }
 .hotel,
+.weather,
 .shop {
   flex-direction: row-reverse;
 }
@@ -76,6 +80,7 @@
   .barberShop,
   .hotel,
   .dashboard,
+  .weather,
   .shop,
   .pizza {
     display: flex;
@@ -86,6 +91,7 @@
   }
   .barberShop .barber-image img,
   .hotel .hotel-image img,
+  .weather .weather-image img,
   .dashboard .dashboard-image img,
   .shop .shop-image img,
   .pizza .pizza-image img {
@@ -96,6 +102,7 @@
   .hotel .hotel-des,
   .dashboard .dashboard-des,
   .shop .shop-des,
+  .weather .weather-des,
   .pizza .pizza-des {
     width: 100%;
   }
