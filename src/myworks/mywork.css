@@ -61,14 +61,20 @@
 .dashboard .dashboard-des,
 .shop .shop-des,
 .pizza .pizza-des {
-  width: 50%;
+  width: 100%;
 }
 .barberShop .barber-image img,
 .hotel .hotel-image img,
 .weather .weather-image img,
 .dashboard .dashboard-image img,
 .shop .shop-image img,
-.pizza .pizza-image img {
+.pizza .pizza-image img,
+.barberShop .barber-image,
+.hotel .hotel-image,
+.weather .weather-image,
+.dashboard .dashboard-image,
+.shop .shop-image,
+.pizza .pizza-image {
   width: 100%;
 }
 .hotel,

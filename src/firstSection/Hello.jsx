@@ -52,7 +52,7 @@ const Hello = () => {
             />
           </h1>
         </div>
-        <div>
+        <div className="download">
           <h1>Download Resum</h1>
           <a href={cv} download>
             <svg

@@ -43,6 +43,7 @@
 .Sides .text div:nth-child(2) h1 {
   font-size: 40px;
   -webkit-text-stroke: 1.5px #ff4c60;
+  color: white;
 }
 .Sides .text div:nth-child(3) {
   display: flex;
@@ -54,7 +55,7 @@
 }
 .Sides .logo img {
   height: 525px;
-  max-width: 500px;
+  max-width: 100%;
 }
 @media screen and (0<=width<=425px) {
   .Sides .text div:nth-child(1) h1 {
@@ -196,4 +197,27 @@
   text-transform: uppercase;
   color: transparent;
   -webkit-text-stroke: 1.5px black;
+}
+
+@media screen and (769px<=width<=992px) {
+  .Sides .text div:nth-child(2) h1 {
+    font-size: 34px;
+  }
+}
+.download:hover svg {
+  stroke: #ff4c60;
+  color: #ff4c60;
+  stroke-width: 0.2px;
+  animation: shacke 200ms linear 1;
+}
+@keyframes shacke {
+  0% {
+    transform: translate(5px, 2px);
+  }
+  50% {
+    transform: translate(-5px, -2px);
+  }
+  100% {
+    transform: translate(5px, 2px);
+  }
 }
