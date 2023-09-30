@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seif_Portfolio/static/css/main.cdcd07fd.css",
-    "main.js": "/seif_Portfolio/static/js/main.17ce3baa.js",
+    "main.css": "/seif_Portfolio/static/css/main.af682bca.css",
+    "main.js": "/seif_Portfolio/static/js/main.a99d2e5f.js",
     "static/js/872.490c7f53.chunk.js": "/seif_Portfolio/static/js/872.490c7f53.chunk.js",
     "static/js/227.e8a6ae04.chunk.js": "/seif_Portfolio/static/js/227.e8a6ae04.chunk.js",
     "static/js/526.ee5b9297.chunk.js": "/seif_Portfolio/static/js/526.ee5b9297.chunk.js",
@@ -30,8 +30,8 @@
     "static/media/github.svg": "/seif_Portfolio/static/media/github.1dbcf7b2491be69d987cad6ab8eacebc.svg",
     "static/media/linkedin.svg": "/seif_Portfolio/static/media/linkedin.fe8721c9a6b838941416b840c12455b6.svg",
     "static/media/nextjs (1).svg": "/seif_Portfolio/static/media/nextjs (1).badbbbf8aa9b84b1f447dd7fe5a7729d.svg",
-    "main.cdcd07fd.css.map": "/seif_Portfolio/static/css/main.cdcd07fd.css.map",
-    "main.17ce3baa.js.map": "/seif_Portfolio/static/js/main.17ce3baa.js.map",
+    "main.af682bca.css.map": "/seif_Portfolio/static/css/main.af682bca.css.map",
+    "main.a99d2e5f.js.map": "/seif_Portfolio/static/js/main.a99d2e5f.js.map",
     "872.490c7f53.chunk.js.map": "/seif_Portfolio/static/js/872.490c7f53.chunk.js.map",
     "227.e8a6ae04.chunk.js.map": "/seif_Portfolio/static/js/227.e8a6ae04.chunk.js.map",
     "526.ee5b9297.chunk.js.map": "/seif_Portfolio/static/js/526.ee5b9297.chunk.js.map",
@@ -39,7 +39,7 @@
     "237.19600c69.chunk.js.map": "/seif_Portfolio/static/js/237.19600c69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdcd07fd.css",
-    "static/js/main.17ce3baa.js"
+    "static/css/main.af682bca.css",
+    "static/js/main.a99d2e5f.js"
   ]
 }
