@@ -5,6 +5,7 @@ import pic4 from "../images/ecomerce.png";
 import pic5 from "../images/pizza-app.png";
 import pic6 from "../images/weatherApi.png";
 import pic7 from "../images/todo.png";
+import pic8 from "../images/tinker.png";
 import "swiper/css";
 import "./mywork.css";
 // Import Swiper React components
@@ -373,6 +374,55 @@ const Mywork = () => {
             <button>
               <a
                 href="https://seif2k1.github.io/Todolist/"
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                Live Demo
+              </a>
+            </button>
+          </div>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: "-15px", scale: 0.5 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 3, type: "spring", stiffness: 400 }}
+          className="tinker"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <div className="tinker-image">
+            <img
+              src={pic8}
+              alt="seof"
+              style={{
+                borderRadius: "35px",
+              }}
+            />
+          </div>
+          <div
+            className="tinker-des"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              padding: "0 15px",
+              flexDirection: "column",
+            }}
+          >
+            Tinker CSS Template is a beautiful one-page layout based on Next.js
+            13. Homepage full background image uses a parallax effect. You can
+            apply this layout for your digital marketing websites or use as a
+            company portfolio showcase.
+            <br />
+            And I i used in this project html and css by tailwind and next.js 13
+            and this is project is full responsive
+            <button>
+              <a
+                href="https://tinker-lemon.vercel.app/"
                 style={{
                   textDecoration: "none",
                 }}

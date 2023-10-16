@@ -51,7 +51,8 @@
 .hotel .hotel-image img,
 .dashboard .dashboard-image img,
 .shop .shop-image img,
-.pizza .pizza-image img {
+.pizza .pizza-image img,
+.tinker .tinker-image img {
   width: 100%;
   height: 350px;
 }
@@ -60,16 +61,19 @@
 .hotel .hotel-des,
 .dashboard .dashboard-des,
 .shop .shop-des,
-.pizza .pizza-des {
+.pizza .pizza-des,
+.tinker .tinker-des {
   width: 100%;
 }
 .barberShop .barber-image img,
+.tinker .tinker-image img,
 .hotel .hotel-image img,
 .weather .weather-image img,
 .dashboard .dashboard-image img,
 .shop .shop-image img,
 .pizza .pizza-image img,
 .barberShop .barber-image,
+.tinker .tinker-image,
 .hotel .hotel-image,
 .weather .weather-image,
 .dashboard .dashboard-image,
@@ -79,7 +83,8 @@
 }
 .hotel,
 .weather,
-.shop {
+.shop,
+.tinker {
   flex-direction: row-reverse;
 }
 @media screen and (0 <= width <= 768px) {
@@ -88,7 +93,8 @@
   .dashboard,
   .weather,
   .shop,
-  .pizza {
+  .pizza,
+  .tinker {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,6 +103,7 @@
   }
   .barberShop .barber-image img,
   .hotel .hotel-image img,
+  .tinker .tinker-image img,
   .weather .weather-image img,
   .dashboard .dashboard-image img,
   .shop .shop-image img,
@@ -109,6 +116,7 @@
   .dashboard .dashboard-des,
   .shop .shop-des,
   .weather .weather-des,
+  .tinker .tinker-des,
   .pizza .pizza-des {
     width: 100%;
   }
